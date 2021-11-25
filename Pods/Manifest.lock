@@ -1,0 +1,26 @@
+PODS:
+  - EasyPeasy (1.10.0)
+  - PKHUD (5.3.0)
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
+
+DEPENDENCIES:
+  - EasyPeasy
+  - PKHUD
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - EasyPeasy
+    - PKHUD
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  EasyPeasy: b9b1bae024d21a7dfa9bad26d6826d88348cc6f1
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+
+PODFILE CHECKSUM: 2fcf9b96baabce2f068a41dc47f682951d4c98f6
+
+COCOAPODS: 1.11.0

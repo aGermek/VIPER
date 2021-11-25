@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-VIPER/Pods-VIPER-frameworks.sh
+${BUILT_PRODUCTS_DIR}/EasyPeasy/EasyPeasy.framework
+${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework

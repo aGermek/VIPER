@@ -41,8 +41,10 @@ final class APICaller {
 			}
 
 			do {
-				let response = try JSONDecoder().decode(QuoteRequest.self, from: data)
-				completion(.success(response.quotes))
+				let json = try JSONSerialization.jsonObject(with: data, options: .allowFragments)
+				print(json)
+				let response = try JSONDecoder().decode([Quote].self, from: data)
+				completion(.success(response))
 			} catch {
 				completion(.failure(error))
 			}
